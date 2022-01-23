@@ -1,0 +1,1416 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6806190200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3060851300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104743500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:47:43.499Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2135769300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "I click on Login button and check its functionality",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-login-button-and-check-its-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 635355800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75798300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1997912400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Login option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2284199000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify that I am on login page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 652896700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter username apooravtest and password test@123",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apooravtest",
+                  "offset": 17
+                },
+                {
+                  "val": "test@123",
+                  "offset": 42
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 633061000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify the message",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7793542600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3561954800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35909700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:48:01.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1378942100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "I click on Forgot User Id and Password Button",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-forgot-user-id-and-password-button",
+        "after": [
+          {
+            "result": {
+              "duration": 635250100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67813500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2746924400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Login option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2769238100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify that I am on login page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2073192000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on forgot username or password option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_forgot_username_or_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1200444200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify that I am on user id or password reset page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_reset_userid_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7445177300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2875939400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43882700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:48:24.179Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1412636400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "I try to retrieve user id",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-try-to-retrieve-user-id;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 644304900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 72389000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1549895500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Login option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2257580000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify that I am on login page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1210725700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on forgot username or password option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_forgot_username_or_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1845397500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I verify that I am on user id or password reset page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_reset_userid_password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107711400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on retrieve user Id button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_retrieve_user_id_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235290700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter email id apoorav.test@gmail.com and clicked on submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apoorav.test@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_email_address_and_clicked_on_submit_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1162058200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I verify that email has been sent on the apoorav.test@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apoorav.test@gmail.com",
+                  "offset": 41
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_email_has_been_sent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12374869400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11397112600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30917500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:48:45.111Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1355062900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "I try to reset password",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-try-to-reset-password",
+        "after": [
+          {
+            "result": {
+              "duration": 634279300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76795300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3818451100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on Login option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2765001900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I verify that I am on login page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7841906400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on forgot username or password option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_forgot_username_or_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2354201700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I verify that I am on user id or password reset page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_reset_userid_password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56848400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I click on reset password button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_reset_password_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683588200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter user id apoorav.test and clicked on submit button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apoorav.test",
+                  "offset": 16
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_user_id_and_clicked_on_submit_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1154457400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I verify the message",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14291718900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5277101600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32911100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:49:29.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1349444300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "I click on create user id and check its functionality",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-create-user-id-and-check-its-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 619006400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58842700,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21044068500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on create user id option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_create_user_id_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28922600,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I verify that I am on create user id page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_create_user_id_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8784518100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4086995700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34905600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:50:12.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1401966600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "I click on open an account option and check its functionality",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-open-an-account-option-and-check-its-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 640734600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76794400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click on signup/login link",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_signup_or_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5834760600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on open an account option",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_open_an_account_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \r\nExpecting actual:\r\n  \"\"\r\nto be equal to:\r\n  \"Open a FedEx account\"\r\nwhen ignoring whitespace differences\r\n\tat com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_open_a_business_account_page(StepDefinition.java:142)\r\n\tat ✽.I verify that I am on open a business account page(file:///D:/Workspaces/Interviews/workspace/src/test/resources/features/Test.feature:61)\r\n",
+              "duration": 858195800,
+              "status": "failed"
+            },
+            "line": 61,
+            "name": "I verify that I am on open a business account page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_open_a_business_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11535049700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7001623900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32911400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:50:34.094Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1314058100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "I enter wrong tracking id number and check error message",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-enter-wrong-tracking-id-number-and-check-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 631221100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61834800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I enter random tracking number",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_tracking_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8698874200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on track button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_track_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24387538100,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I verify the error message on tracking page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_the_error_message_on_tracking_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13386092700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4015673600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33914200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:51:27.763Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1384019800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "I click on shipping button to check its functionality",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-shipping-button-to-check-its-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 661146300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1881153700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click on shipping button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_shipping_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2767906300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I verify that I am on login page",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_i_am_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11406913600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5691124800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37917300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:51:51.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1240639900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "I click on search button and search something",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-search-button-and-search-something",
+        "after": [
+          {
+            "result": {
+              "duration": 622383500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64826800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I click on search button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2293423300,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I search carriage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carriage",
+                  "offset": 9
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_search_a_parameter(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1719543400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I verify that search results are visible",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_search_results_are_visible()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "As a user I want test the basic functionality of FedEx website",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13595844000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the application",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5074246800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I select a region",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_select_a_region()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26929400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the page title",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T20:52:14.983Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1251878800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.beforeTest()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "I click on rate and transit button to check the functionality",
+        "description": "",
+        "id": "fedex-ui-automation-assignment;i-click-on-rate-and-transit-button-to-check-the-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 651206600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.fedex.automation.stepdefs.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 62854500,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click on rate and transit button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_click_on_rate_and_transit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20672066000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I enter from city Noida and to city Pune",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Noida",
+                  "offset": 18
+                },
+                {
+                  "val": "Pune",
+                  "offset": 36
+                }
+              ],
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_from_address_and_to_address(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2364885500,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I enter package details and hit show rates button",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_enter_other_details_and_hit_show_rate_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226465100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I verify that delivery rates and date is displayed",
+            "match": {
+              "location": "com.fedex.automation.stepdefs.StepDefinition.i_verify_that_delivery_rate_and_date_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "FedEx UI automation assignment",
+    "description": "",
+    "id": "fedex-ui-automation-assignment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Test.feature",
+    "tags": []
+  }
+]

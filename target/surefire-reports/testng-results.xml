@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-24T02:17:42 IST" name="Fedex Automation Suite" finished-at="2022-01-24T02:23:01 IST" duration-ms="318366">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-01-24T02:17:42 IST" name="Test" finished-at="2022-01-24T02:23:01 IST" duration-ms="318366">
+      <class name="com.fedex.automation.runner.runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:17:43 IST" name="setUpClass" finished-at="2022-01-24T02:17:43 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:17:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:18:01 IST" duration-ms="18504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on Login button and check its functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:18:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:18:24 IST" duration-ms="22273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on Forgot User Id and Password Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:18:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:18:45 IST" duration-ms="20871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I try to retrieve user id"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:18:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:19:29 IST" duration-ms="44609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I try to reset password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:19:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:20:12 IST" duration-ms="42706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on create user id and check its functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:20:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:20:34 IST" duration-ms="21724" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on open an account option and check its functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expecting actual:
+  ""
+to be equal to:
+  "Open a FedEx account"
+when ignoring whitespace differences]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expecting actual:
+  ""
+to be equal to:
+  "Open a FedEx account"
+when ignoring whitespace differences
+at com.fedex.automation.stepdefs.StepDefinition.i_verify_that_i_am_on_open_a_business_account_page(StepDefinition.java:142)
+at ✽.I verify that I am on open a business account page(file:///D:/Workspaces/Interviews/workspace/src/test/resources/features/Test.feature:61)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:20:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:21:27 IST" duration-ms="53668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I enter wrong tracking id number and check error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:21:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:21:51 IST" duration-ms="24137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on shipping button to check its functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:21:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:22:14 IST" duration-ms="23082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on search button and search something"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:22:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T02:23:00 IST" duration-ms="45932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I click on rate and transit button to check the functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[FedEx UI automation assignment]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.fedex.automation.runner.runner@482bce4f]" started-at="2022-01-24T02:23:00 IST" name="tearDownClass" finished-at="2022-01-24T02:23:01 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.fedex.automation.runner.runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Fedex Automation Suite -->
+</testng-results>
