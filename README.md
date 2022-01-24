@@ -11,7 +11,7 @@ This repo is being used to demonstrate automation of FedEx website.
 * Automation Library - Selenium
 * Development Apporach - Cucumber
 
-#Scenarios Automated
+# Scenarios Automated
 * User clicks on Login Button and entering random username and password to check for error.
 * User clicks on Forgot Username/Password.
 * User tries to retrieve the user id.
