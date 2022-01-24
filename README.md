@@ -3,13 +3,13 @@ This repo is being used to demonstrate automation of FedEx website.
 
 
 # Guidelines for the project
-• Create a testing framework using Java, Selenium, Cucumber
-• Write scripts that would automate 10 test cases that you see fit to be included in a regression test set.
+* Create a testing framework using Java, Selenium, Cucumber
+* Write scripts that would automate 10 test cases that you see fit to be included in a regression test set.
 
 # Tech Stack Used
-Programming Language - Java
-Automation Library - Selenium
-Development Apporach - Cucumber
+* Programming Language - Java
+* Automation Library - Selenium
+* Development Apporach - Cucumber
 
 #Scenarios Automated
 * User clicks on Login Button and entering random username and password to check for error.
